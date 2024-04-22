@@ -15,7 +15,6 @@ app.listen(3000, () => {
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("MTIzMDYyNzQ4NjE4NzEzMDk1MA.Gt2Pcw.9JpfBGwM-BvqTZwfqsTl4ntOWZc5mutCKxmP60"); ///توكن هنا
 
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
